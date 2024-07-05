@@ -15,6 +15,7 @@ export default function Testimonials(){
             setClients(json) 
       })
     }, []);
+    
     const itemDisplay = 6 /* Defines the number of items being displayed */
     let itemLayout = [1,2,1,2] /* Difines the number of elements on each line */
     let itemList = []
