@@ -59,9 +59,11 @@ export default function Admin() {
     // Returns any results that match the value in the text box.//
 
 function getData() {
+    console.log(search)
     if (search) {
         //Search uses "startsWith()" //
-    axios.get(`http://localhost:8080/user/usersbyfirstname/${search}`)
+        // Change FirstName to another field type like "age" to change what is searched for.
+    axios.get(`http://localhost:8080/user/findUsersByType/firstName/${search}`)
         .then(response => {
             setSearchResult(response.data.data);
     } )
@@ -99,6 +101,7 @@ function deleteByID() {
         console.error(error)          
         alert("Unable to delete user. Please try again.")
     }  )  } ;
+
 
 /* Update Field In DataBase */ 
 function updateByID() {
