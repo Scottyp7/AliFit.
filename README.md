@@ -10,21 +10,16 @@ Version History
 Version 1.1 - Completed 09/07/2024 
     Includes all front end applications.
 
-Version 1.2 Completed 11/07/24 
-    Updated code for responsiveness on smaller screens.
+Version 1.2 - Branch Created for CRUD Operations. 
 
-Version 1.3 Completed 14/07/2024
-    Backend applications with functionality for Admin.jsx completed
-
-version 1.4 Completed 16/07/2024
-    EC2 instance created with domain name alifit.com.au
-
-version 2.0 completed 18/07/2024
-    Application uploaded to GitHub and hosted on AWS.
+Version 1.3 - Crud Branch Merged to Main Branch.
 
 
 GitBranch - Crud 
-    This is part of future development which queries the backend application to create, update and delete. 
+    This is part of future development which queries the backend application to create, update and delete.
+
+Git Branch - Workout Log
+    This is part of future development which allows users to login and track their workout progress and favourite workouts. The stakeholder enters all workout information through a form. 
 
 
 

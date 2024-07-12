@@ -26,7 +26,7 @@ const getUserByID = (req,res) => {
         })
 }
 
-const getUsersByFirstName = (req,res) => {
+const findUsersByType = (req,res) => {
 
     //$regex finds all documents with the firstName - i means its not case senstive
     Models.User.find({[req.params.field]: {'$regex': `^${req.params.data}`, $options: 'i'}})
@@ -74,5 +74,5 @@ const deleteUser = (req, res) => {
 
 
 module.exports = {
-    getUsers, createUser, updateUser, deleteUser , getUserByID, getUsersByFirstName
+    getUsers, createUser, updateUser, deleteUser , getUserByID, findUsersByType
 }

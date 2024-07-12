@@ -11,8 +11,8 @@ router.get('/users/:id', (req, res) => {
     Controllers.userController.getUserByID(req,res);
 })
 
-router.get('/usersbyfirstname/:firstName', (req, res) => {
-    Controllers.userController.getUsersByFirstName(req,res);
+router.get('/findUsersByType/:field/:data', (req, res) => {
+    Controllers.userController.findUsersByType(req,res);
 })
 
 router.post('/create', (req, res) => {
