@@ -26,6 +26,18 @@ const getUserByID = (req,res) => {
         })
 }
 
+const getUsersByFirstName = (req,res) => {
+
+    //$regex finds all documents with the firstName - i means its not case senstive
+    Models.User.find({[req.params.field]: {'$regex': `^${req.params.data}`, $options: 'i'}})
+
+        .then(data => res.send({ result: 200, data: data }))
+        .catch(err => {
+            console.log(err);
+            res.status(500).send({ error: err.message })
+        })
+}
+
 const createUser = (data, res) => {
     // creates a new user using JSON data POSTed in request body
     console.log(data)
@@ -41,14 +53,14 @@ const createUser = (data, res) => {
 const updateUser = (req, res) => {
     // updates the user matching the ID from the param using JSON data POSTed in request body
     console.log(req.body)
-    Models.User.findByIdAndUpdate(req.params.id, req.body, { new: true })
+    Models.User.findByIdAndUpdate(req.params.id, {[req.body.field]:req.body.updatedValue}, { new: true })
 
         .then(data => res.send({ result: 200, data: data }))
         .catch(err => {
             console.log(err);
             res.status(500).send({error: err.message })
         })
-}
+} 
 
 const deleteUser = (req, res) => {
     // deletes the user matching the ID from the param
@@ -62,5 +74,5 @@ const deleteUser = (req, res) => {
 
 
 module.exports = {
-    getUsers, createUser, updateUser, deleteUser , getUserByID
+    getUsers, createUser, updateUser, deleteUser , getUserByID, getUsersByFirstName
 }

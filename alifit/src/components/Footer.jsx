@@ -7,12 +7,12 @@ import XIcon from '@mui/icons-material/X';
 import FitnessCenterIcon from '@mui/icons-material/FitnessCenter';
 
 export default function Footer() {
-// Footer uses Material UI for icons and links to the clients social media pages. 
+// Footer uses Material UI for icons and links to the clients social media pages. //
 
-
+    // The footer appears on all pages. See App.jsx //
     return(
 <>
-    <footer className="footer bg-dark py-5">
+    <footer className="footer bg-secondary py-5">
         <div className="container grid grid-3">
             <div>
                 <h1>AliFit.

@@ -2,18 +2,23 @@ import '../styles/style.css'
 import '../styles/utilities.css'
 
 export default function TestimonialCard(props){
+    
+    // Function to pass the data to the return statement via props. //
+    const paragraphs = props.testimonial.map((text,index) => {
+        return <p key={index}>{text}</p>
+    })
 
 return (
 <>            
 
-    <div className="card flex" style={{minWidth:"350px"}} >
-
-             <img src={props.image1} alt="" style={{width:"180px", height:"210px"}}/>
-
-        <div style={{position:"relative", display:"flex", flexDirection:"column", justifyContent:"flex-start",top:0, left:"10px", }}>
-            <h3 style={{fontWeight:"bolder"}}>{props.name}</h3> 
-            <p>{props.testimonial}</p>
-        </div>
+    <div className="card grid" style={{minWidth:"350px"}} >
+            <div className='flex'>
+                <img src={props.image1} alt="" style={{width:"350px", height:"350px", }}/>
+            </div>
+            <div>
+                <h1 className='flex' style={{fontWeight:"bolder"}}>{props.name}</h1> 
+                <p>{paragraphs}</p>
+            </div>
     </div>
 </>
 )  }

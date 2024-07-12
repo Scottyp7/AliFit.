@@ -1,7 +1,9 @@
 import FlagCircleRoundedIcon from '@mui/icons-material/FlagCircleRounded';
 import FitnessCenterIcon from '@mui/icons-material/FitnessCenter';
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
+
 // Icons imported from material UI.
+
 export default function Stats(){
 
     return(

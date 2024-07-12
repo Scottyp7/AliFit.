@@ -8,7 +8,7 @@ import '../styles/utilities.css';
 
 
 export default function ApplicationForm() {
-  // State variables for the form
+  // State variables for the form. 
     const [lastName, setLastName] = useState('');
     const [startDate, setStartDate] = useState('');
     const [startWeight, setStartWeight] = useState('');
@@ -17,7 +17,8 @@ export default function ApplicationForm() {
     const [startHeight, setStartHeight] = useState ('');
     const [age, setAge] = useState ('');
     const [submitState, setSubmitState] = useState(false);
-
+    /*  Search params is used to pass the data from the previous form on "Index.jsx" to the form below 
+        This stops the need for the user to re-enter information */
     const [searchParams, setSearchParamas] = useSearchParams();
     const [firstName, setFirstName] = useState(null);;
     const [email, setEmail] = useState(null);
@@ -44,7 +45,7 @@ export default function ApplicationForm() {
     const handleRequest = (e) => {
       e.preventDefault();
       // sends an email to the customer informing them that someone has signed up. 
-      emailjs.sendForm('service_y5o1xqt','template_mopj80l',e.target,'LZ8K-HrIA2RlK-G-Z')
+      emailjs.sendForm('service_zgg4g0b','template_iwme5rv',e.target,'bxU-SdErjjNKtCnhZ')
       //Finds the user that was created from the short for and updates the details in the database. 
     axios.put(`http://localhost:8080/user/${searchParams.get('id')}`,
       {firstName,lastName,age,email,phoneCode,phoneNumber,shortGoal,longGoal,startHeight,startWeight})
@@ -56,9 +57,10 @@ export default function ApplicationForm() {
 
     console.log(`${firstName} has completed the form`);
     };
+    // If the form hasnt loaded. Present this message //
     if(firstName === null ) {
       return <h1>Loading...</h1>
-    };
+    }
   
 // The form is an If statement which changes what is displayed once the user has clicked submit. 
 return (

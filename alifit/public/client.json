@@ -1,50 +1,126 @@
 [
     {
         "ID":1,
-        "name":"Rebecca",
-        "testimonial":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti iusto, asperiores qui sit ea libero quos possimus nisi ad praesentium fugiat fugit itaque maiores in provident omnis aliquid tempora? Non.",
-        "image1":"https://i.pinimg.com/736x/18/92/61/1892616bdf53079ea92dc9cdcd3af5e7.jpg",
-        "image2":"https://i.pinimg.com/736x/76/52/c8/7652c8f1a321496bd3ef2a1350e77db0.jpg",
-        "image3":"https://i.pinimg.com/736x/23/8d/27/238d27ee5028169392ca29fcfa1a8abe.jpg"
+        "name":"Bronagh",
+        "testimonial":["Believe me when I say I’ve been on a 'lifestyle change' for years and years and just felt like no matter what I did I never truely seen a change, until now.",
+        "For the first time in my life I’ve met a coach (Alison) that’s actually invested in me, supported me, encouraged me and understood the chaos of life.",
+        "She has pushed when needed, inspired me and encouraged me always. The difference in my mentality, self worth, confidence and my body, is incredible.",
+        "I have finally found a trainer that is worth every single penny and more. She has given me so much confidence in my self. She has been the key to my body change and most importantly my way of life and thinking.",
+        "The progress and ability I have developed in the gym is wild. She has taught me that I deserve to have my dream body and no goal is too big. She’s not only an incredible coach but a wonderful woman and friend and I really could not recommend her enough."],
+        "image1":"bronagh1.jpeg",
+        "image2":"bronagh2.jpeg",
+        "image3":"bronagh3.jpeg"
     },
     {
         "ID":2,
-        "name":"Rebecca",
-        "testimonial":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti iusto, asperiores qui sit ea libero quos possimus nisi ad praesentium fugiat fugit itaque maiores in provident omnis aliquid tempora? Non.",
-        "image1":"https://i.pinimg.com/736x/18/92/61/1892616bdf53079ea92dc9cdcd3af5e7.jpg",
-        "image2":"https://i.pinimg.com/736x/76/52/c8/7652c8f1a321496bd3ef2a1350e77db0.jpg",
-        "image3":"https://i.pinimg.com/736x/23/8d/27/238d27ee5028169392ca29fcfa1a8abe.jpg"
+        "name":"Bronagh",
+        "testimonial":[
+        "Starting Alison’s online coaching has been one of the best decisions I’ve ever made. Before starting I would constantly make excuses to not go to the gym and continue to make poor food choices.",
+        "I lacked confidence and motivation. I’ve always fluctuated with my weight but after moving to Australia and doing lots of traveling and being a person with a huge social life made me lose myself completely.",
+        "By signing up to Alison’s online coaching it gave me the accountability and motivation I needed. As most people know I’ve a hectic lifestyle consisting of big nights out nearly every weekend.",
+        "Alison’s online coaching has made me realize you can still get the results without restricting yourself to be absolutely miserable. Seeing the results from week to week made me more confident and pushed me to keep going.",
+        "Seeing my clothes begin to fit me again and my clothes size start to drop was a different feeling in itself. I can say I’m finally starting to feel good in my own skin again and I’m excited to progress further in my fitness journey as it’s become part of a lifestyle.",
+        "Alison’s check ins each week gave me the boost I needed week in and week out and she pushed me to my highest potential. I’m so grateful for how far I’ve come and all I’ve achieved.",
+        "I’ve learned to love the gym again and with Alison’s coaching it brought back my confidence. It’s all about showing up and the results will follow 💪🏻🙌🏻 (as well as Alison giving out to you from time to time which is what I needed🤣)🏋🏼‍♀️"],
+        "image1":"galloway1.jpeg",
+        "image2":"galloway2.jpeg",
+        "image3":"galloway3.jpeg"
+
     },
     {
         "ID":3,
-        "name":"Rebecca",
-        "testimonial":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti iusto, asperiores qui sit ea libero quos possimus nisi ad praesentium fugiat fugit itaque maiores in provident omnis aliquid tempora? Non.",
-        "image1":"https://i.pinimg.com/736x/18/92/61/1892616bdf53079ea92dc9cdcd3af5e7.jpg",
-        "image2":"https://i.pinimg.com/736x/76/52/c8/7652c8f1a321496bd3ef2a1350e77db0.jpg",
-        "image3":"https://i.pinimg.com/736x/23/8d/27/238d27ee5028169392ca29fcfa1a8abe.jpg"
+        "name":"Helen",
+        "testimonial":["Food and exercise have preoccupied my mind for such a long time. I have always focused on one aspect or another but since starting with Ali I finally feel like I can finally get the balance right.",
+            "For me to make progress I knew I needed to be able to still enjoy my food and have a training schedule that could be flexible to my routine & Ali made sure that was the case!",
+            "Her programme allows you to still enjoy nights out and the food you like without feeling guilty. Ali made me realise that the number on the scales isn’t the important part. Seeing the progress in my check in pictures each week kept me motivated and I am so so happy with my results so far!!",
+            "I have noticed a huge change in my attitude towards exercise and the gym since starting with Ali and finally feel like it’s all part of my routine now. I feel so much healthier and happier Alison you really have transformed my perspective when it comes to exercise and food!",
+            "I’m so happy I took the plunge and reached out! I have honestly never felt so good in myself I feel like a new person. Thank you so so much Alison"],
+        "image1":"helen1.jpeg",
+        "image2":"helen2.jpeg",
+        "image3":"helen3.jpeg"
     },
     {
         "ID":4,
-        "name":"Rebecca",
-        "testimonial":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti iusto, asperiores qui sit ea libero quos possimus nisi ad praesentium fugiat fugit itaque maiores in provident omnis aliquid tempora? Non.",
-        "image1":"https://i.pinimg.com/736x/18/92/61/1892616bdf53079ea92dc9cdcd3af5e7.jpg",
-        "image2":"https://i.pinimg.com/736x/76/52/c8/7652c8f1a321496bd3ef2a1350e77db0.jpg",
-        "image3":"https://i.pinimg.com/736x/23/8d/27/238d27ee5028169392ca29fcfa1a8abe.jpg"
+        "name":"Maddy",
+        "testimonial":[
+            "I literally just cant thank you enough, like youve blown any expectations I had for this coaching.",
+            "So many areas of my life have changed for the better from my relationship with food to the way I think about myself so much more kindly and just have so much more confidence.",
+            "I feel like I have so much more space and time in my brain for the things that matter because im not constantly worrying about how I look or feel or what I am eating like I cant even describe how much you have helped me in so many different ways.",
+            "I felt like every week there was a new fun surprise that made me feel good about myself when coaching with you. You have been an absolute game changer Ali and the best thing I have ever done was choosing you as my coach"],
+        "image1":"maddy1.jpeg",
+        "image2":"maddy2.jpeg"
     },
     {
         "ID":5,
-        "name":"Rebecca",
-        "testimonial":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti iusto, asperiores qui sit ea libero quos possimus nisi ad praesentium fugiat fugit itaque maiores in provident omnis aliquid tempora? Non.",
-        "image1":"https://i.pinimg.com/736x/18/92/61/1892616bdf53079ea92dc9cdcd3af5e7.jpg",
-        "image2":"https://i.pinimg.com/736x/76/52/c8/7652c8f1a321496bd3ef2a1350e77db0.jpg",
-        "image3":"https://i.pinimg.com/736x/23/8d/27/238d27ee5028169392ca29fcfa1a8abe.jpg"
+        "name":"Michelle",
+        "testimonial":["Ahh my amazing online PT coach, Alison! 🙌🏼 I couldn’t be happier with how the past couple of weeks have gone! Alison helped me conquer my gym anxiety and transformed my mindset completely.",
+            "She helped me so much in getting back on track and establishing a routine again! After years of dealing with exam stress and long desk hours, she motivated me to nail my sessions and step goals weekly to see results.",
+            "8 weeks in I suffered an ankle injury and Alison was able to tailor my program to help me keep moving without my progress suffering as a result. Alison’s program was suited to a lifestyle that allowed you go out and enjoy a few drinks and eat the foods you enjoy- she thought me that weight loss is all about making smart choices and planning out your week.",
+            "Thanks to her, I've not only sculpted my body but embraced a healthier lifestyle! Grateful for this incredible journey and having Alison as an amazing coach, friend and therapist by my side 💕"],
+        "image1":"michelle1.jpeg",
+        "image2":"michelle2.jpeg"
     },
     {
         "ID":6,
-        "name":"Rebecca",
-        "testimonial":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti iusto, asperiores qui sit ea libero quos possimus nisi ad praesentium fugiat fugit itaque maiores in provident omnis aliquid tempora? Non.",
-        "image1":"https://i.pinimg.com/736x/18/92/61/1892616bdf53079ea92dc9cdcd3af5e7.jpg",
-        "image2":"https://i.pinimg.com/736x/76/52/c8/7652c8f1a321496bd3ef2a1350e77db0.jpg",
-        "image3":"https://i.pinimg.com/736x/23/8d/27/238d27ee5028169392ca29fcfa1a8abe.jpg"
-    }
+        "name":"Ali",
+        "testimonial":[
+            "couldn’t be more grateful for the last 12 weeks! I’ve learnt so much and have never felt more confident in the gym.",
+            "I’ve always loved the gym but struggled with finding the right balance between training and eating healthy while still going out and enjoying myself.",
+            "This program gave me the tools to find that balance and enjoy myself without feeling guilty🥰 Alison is so helpful with every aspect of your lifestyle including strength training, cardio, daily movement, nutrition and sleep.",
+            "By covering all these different aspects, we were able to alter certain things to ensure I was gaining the most out of the program. Even on weeks where I was busy, feeling down or lacking motivation, Alison helped me stay accountable which motivated me to push myself harder the following weeks.",
+            "She praised me on my wins always while still finding new ways to up my progress and I couldn’t be happier with my results. I could not recommend Alison’s program enough for anyone who struggles with motivation, confidence in the gym or finding the tools to live a healthy lifestyle without having to sacrifice your social life."],
+        "image1":"ali2.jpeg",
+        "image2":"ali1.jpeg",
+        "image3":"ali3.jpeg"
+    },
+    {
+        "ID":7,
+        "name":"Molly",
+        "testimonial":["Before working with Alison I would go to the gym and have no idea what I should be doing. I wasted so much time wondering what I should work on as I had no set routine and could not see results.",
+            "Starting AliFit coaching has allowed me to go into the gym feeling so much more confident with a set program. I know exactly what I should be doing now to reach my goals and why I should be doing it.",
+            "I originally started 1:1 PT with Alison, which was great for starting off. But the more experienced I became in the gym the more I needed to push myself that little bit further, which is why online coaching was the way to go.",
+            "Alison will hold you accountable and check in on you constantly. She has provided me with weekly support and encouragement and has helped me with anything I need. When things get tough or I feel like giving up, Alison has kept me going.",
+            "I have learned so much through online coaching with her and I cannot wait to see my results by week 12."],
+        "image1":"molly1.jpeg"
+
+    },
+    {
+        "ID":8,
+        "name":"Shauna",
+        "testimonial":["Before starting with Alison, I had no structure to my workouts and felt like I was entering the gym blind. My nutrition was good but I wasn’t hitting my macros or calories and was under eating most days.",
+            "I’ve always been very active and loved working out but tended to always opt to go to a class as I felt too nervous/intimidated to do a workout alone.",
+            "Even if I did a workout, I wouldn’t have a set plan before going in which was leading me to feel less confident for my workout. I started with Alison through PT at Westwood until she highlighted that I have the ability to do the workouts alone but an online plan might be better suited given my experience with exercise.",
+            "Since I began with Alison’s online experience, both my confidence in the gym and with my meals has increased. The biggest aim for me was to have more confidence in myself and my body before moving abroad and she most definitely has succeeded with that.",
+            "Not only has she helped me be accountable with our weekly checkins, she has helped me overcome numerous hurdles I have faced with my body image issues. Alison has become more than a coach, she has also become a great friend.",
+            "If you are looking to have a positive experience with a coach and have more confidence in your body and workouts, I would highly recommend Alison"],
+        "image1":"shauna1.jpeg",
+        "image2":"shauna2.jpeg"
+    },
+    {
+        "ID":9,
+        "name":"Lucy",
+        "testimonial":["I am so grateful I took the step to start Alison’s coaching back in Jan. I have always had a bit of an all or nothing approach to training and nutrition which made me lack consistency and never see the results I wanted.",
+        "Starting Alison’s coaching has completely changed my mindset around this, I have seen great results while still having a social life as well as eating the foods I wanted.",
+        "Its crazy to see how quick you can make progress with a plan to follow and the support of Alison. Everything is laid out so well and she is so supportive and pushed me each week to improve and encourage me 😊.",
+        "She was always there to help with any questions I had and I’ve learned so much over the last 12 weeks as well as really enjoying it! Mentally and physically I am the strongest I have been in a long time.",
+        "I couldn’t recommend Alison more, having someone to be accountable to and support you really makes such a difference. Alison offers a balanced and practical approach to training and I’m excited to take everything I’ve learned over the last 12 weeks into my lifestyle going forward. THANK YOU"],
+        "image1":"lucy1.jpeg",
+        "image2":"lucy2.jpeg",
+        "image3":"lucy3.jpeg",
+        "image4":"lucy4.jpeg"
+    },
+    {
+        "ID":10,
+        "name":"Saoirse",
+        "testimonial":["I recently completed a 12-week gym program with Alison, and I can confidently say it was a game-changer. From the outset, Alison’s approach was incredibly supportive and effective.",
+        "She kept me on track with daily tracking, weekly check-ins, and was always available for guidance whenever I needed it. Before starting the program, I was stuck in a rut both physically and mentally.",
+        "I wasn’t exercising regularly, my eating habits were poor, and I felt like I was just going through the motions with work, lacking any stress relief. I knew I needed a change, but I kept procrastinating.",
+        "Fast forward 12 weeks, and the results have been amazing so far! Thanks to Alison’s guidance, I not only achieved my initial goals but exceeded them. I now look forward to my gym sessions each week, and I’ve regained my passion for healthy eating.",
+        "The results speak for themselves, and I couldn’t be happier. What sets Alison apart is her holistic approach to health and fitness. She understands the importance of balancing work and life, making the journey enjoyable rather than restricting & unsustainable.",
+        "With her support, I’ve learned to discipline myself when it comes to training and making healthier choices in my daily life. One of the best aspects of working with Alison is the freedom it brings.\n I no longer feel the need to restrict myself or feel guilty about enjoying nights out.",
+        "Alison’s approach has helped me to find a balance that works for me.\n Overall, I cannot recommend Alison highly enough! If you’re looking for a coach who will not only help you achieve your fitness goals but also support you in creating a healthier, more balanced lifestyle, Alison is the one for you."],
+        "image1":"Saoirse1.jpeg",
+        "image2":"Saoirse2.jpeg"
+    } 
+    
 ]

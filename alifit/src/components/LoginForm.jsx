@@ -8,18 +8,23 @@ import '../styles/utilities.css';
 
 
 
-export default function LoginForm () {
-  // State variables for the form
+export default function LoginForm ({extraClasses=[]}) {
+
+  const classes = ["showcase-form","card"].concat(extraClasses).join(" ")
+  
+  // State management //
     const [firstName, setFirstName] = useState('');
     const [email, setEmail] = useState('');
     const [phoneNumber, setPhoneNumber] = useState('');
     const [phoneCode, setPhoneCode] = useState('+44');
     const navigate = useNavigate()
   
+    // function that is called when the submit button is pressed //
     const handleRequest = (e) => {
       e.preventDefault()
     // Emails the customer to let her know someone has completed the short form then posts the data into DB.
-      emailjs.sendForm('service_y5o1xqt','template_bxlfc5d',e.target,'LZ8K-HrIA2RlK-G-Z')
+      emailjs.sendForm('service_zgg4g0b','template_uhpn6gu',e.target,'bxU-SdErjjNKtCnhZ')
+      
       axios.post('http://localhost:8080/user/create',
         {firstName,email,phoneCode,phoneNumber})
           .then(response => {navigate(`/application?id=${response.data.data._id}`)})
@@ -34,7 +39,7 @@ export default function LoginForm () {
 
 return (
 <>
-  <div className="showcase-form card">
+  <div className={classes}>
 
     <h2>Request a Free Consultation</h2>
 

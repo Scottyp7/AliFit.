@@ -16,17 +16,18 @@ export default function Testimonials(){
       })
     }, []);
     
-    const itemDisplay = 6 /* Defines the number of items being displayed */
-    let itemLayout = [1,2,1,2] /* Difines the number of elements on each line */
+    const itemDisplay = 8/* Defines the number of items being displayed */
+    let itemLayout = [1,2,1,2,1,1] /* Difines the number of elements on each line */
     let itemList = []
     let randomNum =  Math.floor(Math.random() * (clients.length - itemDisplay));
     const clientsSlice = clients.slice(randomNum,randomNum + itemDisplay)
+    console.log(clientsSlice)
     
     // ClassName is defined here to 
     for(const [index,itemsPerLine] of itemLayout.entries()){
         let className = "container flex"
-        const clientsSplice = clientsSlice.splice(randomNum, randomNum + itemsPerLine)
-
+        const clientsSplice = clientsSlice.splice(0,itemsPerLine)
+        console.log(randomNum,itemsPerLine,"clientSplice",clientsSplice, clientsSlice)
         const clientList = clientsSplice.map(client => {
         return <TestimonialCard key={client.ID} name={client.name} image1={client.image1} testimonial={client.testimonial} />
     }  );

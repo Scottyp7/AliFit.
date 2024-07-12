@@ -2,7 +2,7 @@
 
 :root {
   --primary-color: #f7b2e1;
-  --secondary-color: #1c3fa8;
+  --secondary-color: #4c75f1;
   --dark-color: #02569f;
   --light-color: #f4f4f4;
   --success-color: #5cb85c;
@@ -121,6 +121,9 @@ pre {
   animation: slideInFromRight 1s ease-in;
 }
 
+.showcase-form.infoForm{
+  top: 0px;
+}
 .showcase-form .form-control {
   margin: 30px 0;
 }
@@ -171,16 +174,21 @@ pre {
   -ms-transform: skewY(-3deg);
 }
 
+/* Admin */
+.searchBar{
+  display: flex;
 
+}
 /* Stats */
 .stats {
-  padding-top: 100px;
+  padding-top: 10px;
   animation: slideInFromBottom 1s ease-in;
 }
 
 .stats-heading {
   max-width: 500px;
   margin: auto;
+text-align: center;
 }
 
 .stats .grid div {
@@ -255,6 +263,19 @@ pre {
 
 
 /* info */
+.infonav ul li:hover {
+  border-bottom: 2px var(--dark-color) solid;
+  cursor: pointer;
+}
+
+
+
+.infonav ul li{
+  border-bottom: 2px transparent solid;
+}
+.infonav{
+  background-color: var(--light-color);
+}
 .info {
   text-align: center;
   justify-content: center;
@@ -276,8 +297,7 @@ pre {
 
 .success .card {
   text-align: center;
-  flex-basis: 306px;
-  margin: 18px 15px 40px;
+  flex-basis: 375px;
   transition: transform 0.2s ease-in;
   width: 30%;
   height: 40%;
@@ -538,8 +558,14 @@ pre {
     align-items: center;
     justify-content: center;
   }
+
   .success .grid{
-  grid-column: 1fr  }
+  grid-column: 1fr  
+}
+
+  div.success.card{
+    padding: 10px;
+  }
 
   .navbar .flex {
     flex-direction: column;
@@ -577,12 +603,42 @@ pre {
     grid-column: 1fr 
   }
 
+  .showcase-text h1, 
+  .showcase-text p{
+    animation: slideInFromTop 1s ease-in;
+  }
+  .infoImg{
+    width: 350px;
+  }
+  .aliImg{
+    width: 375px;
+  }
 }
 
 @media (max-width: 415px) {
   .navbar {
     height: 130px;
+  }
+div.success.card{
+  padding: 0;
+}
+  .card p{
+  margin-left: 10px;
+  }
 
+  .card img{ 
+    justify-content: auto;
+    padding: 10px
+  }
+
+.aliImg.flex{
+  width: 375px;
+}
+
+
+  .showcase-text h1, 
+  .showcase-text p{
+    animation: slideInFromTop 1s ease-in;
   }
   .align-small {
     justify-content: center;
