@@ -7,7 +7,7 @@ export default function NavBar(){
     <>
         <div className="navbar" >
             <div className="container flex grid-2 align-small">
-                 <h1 className="logo"><a href="/index">AliFit.</a></h1>
+                 <h1 className="logo"><a href="/">AliFit.</a></h1>
                 <nav>
                     <ul>
                         <li><a href="/">Home</a></li>
