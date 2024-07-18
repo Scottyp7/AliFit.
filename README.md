@@ -51,7 +51,13 @@ Steps to update code from the local machine to the AWS Instance.
 
 1. docker build -t {YOUR DOCKER USERNAME}/alifitfrontend .
 2. docker push {YOUR DOCKER USERNAME}/alifitfrontend  
-3. sudo docker ps -a 
-4. sudo docker stop {YOUR CONTAINER ID}
-5. sudo docker pull {YOUR DOCKER USERNAME}/alifitfrontend
-6. sudo docker run -d -p 80:5173 {YOUR DOCKER USERNAME}/alifitfrontend
+3. Run Steps 1 and 2 again but change alifitfrontend to AliFitMongoDB
+
+Steps 4 and 5 are only for updating alifit. If you are installing it for the first time skip these steps. 
+4. sudo docker ps -a 
+5. sudo docker stop {YOUR CONTAINER ID}
+
+
+6. sudo docker pull {YOUR DOCKER USERNAME}/alifitfrontend
+7. sudo docker run -d -p 80:5173 {YOUR DOCKER USERNAME}/alifitfrontend
+8. Run Steps 5 and 6 again but change alifitfrontend to AliFitMongoDB and change the port number from 80:5173 to 8080:8080
