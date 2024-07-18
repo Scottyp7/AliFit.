@@ -4,6 +4,7 @@ import Testimonials from "../pages/testimonials"
 import Info from "../pages/info"
 import Application from "../pages/application"
 import Admin from "../pages/admin"
+import Workouts from "../pages/workouts"
 
 export default function AppRoutes(props){
 
@@ -18,6 +19,7 @@ return (
     <Route path="info" element={<Info/>}/> 
     <Route path="application" element={<Application/>}/>
     <Route path="admin" element={<Admin/>}/>
+    <Route path="logs" element={<Workouts/>}/>
 
 </Routes>
 
