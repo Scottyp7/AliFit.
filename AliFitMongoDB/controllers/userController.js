@@ -53,7 +53,7 @@ const createUser = (data, res) => {
 const updateUser = (req, res) => {
     // updates the user matching the ID from the param using JSON data POSTed in request body
     console.log(req.body)
-    Models.User.findByIdAndUpdate(req.params.id, {[req.body.field]:req.body.updatedValue}, { new: true })
+    Models.User.findByIdAndUpdate(req.params.id, req.body , { new: true })
 
         .then(data => res.send({ result: 200, data: data }))
         .catch(err => {
