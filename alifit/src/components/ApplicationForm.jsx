@@ -29,6 +29,9 @@ export default function ApplicationForm() {
     // Gets the user that submittd the short form.
     const getUser = () => {
       axios.get(`http://localhost:8080/user/users/${searchParams.get('id')}`)
+
+    //For live application queries replace the code in the back ticks with the code below. 
+    /* `http://ec2-3-27-164-53.ap-southeast-2.compute.amazonaws.com:8080/user/users/${searchParams.get('id')}` */
         .then(response => {
             setFirstName(response.data.data.firstName);
             setEmail(response.data.data.email);
@@ -48,6 +51,11 @@ export default function ApplicationForm() {
       emailjs.sendForm('service_zgg4g0b','template_iwme5rv',e.target,'bxU-SdErjjNKtCnhZ')
       //Finds the user that was created from the short for and updates the details in the database. 
     axios.put(`http://localhost:8080/user/${searchParams.get('id')}`,
+    
+    //For live application queries replace the code in the back ticks with the code below. 
+    /* `http://ec2-3-27-164-53.ap-southeast-2.compute.amazonaws.com:8080/user/${searchParams.get('id')}` */
+
+
       {firstName,lastName,age,email,phoneCode,phoneNumber,shortGoal,longGoal,startHeight,startWeight})
         .then(response => {setSubmitState(true)})
         .catch(error => {
