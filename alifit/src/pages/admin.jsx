@@ -73,7 +73,7 @@ function getData() {
     } );
     }
  };
-     useEffect(getData,[searchParams]);
+     useEffect(getData,[]);
 
     // Displays the results from the "axios.get" command //
     const displayResult = searchResult.map(client => {
@@ -106,7 +106,7 @@ function deleteByID() {
 /* Update Field In DataBase */ 
 function updateByID() {
 
-    axios.put(`http://localhost:8080/user/${updateID}`,{field:updateOption,updatedValue:updateValue})
+    axios.put(`http://localhost:8080/user/${updateID}`,{[updateOption]:updateValue})
         .then(response => {
             const filteredUsers = searchResult.filter(user => user._id === updateID)
             filteredUsers[0][updateOption] = updateValue
@@ -124,6 +124,7 @@ function updateByID() {
 function handleSubmit(e){
     e.preventDefault();
     setSearchParams({firstName:search})
+    getData()
 }
 
 function handleDelete(e){

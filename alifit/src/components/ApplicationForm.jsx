@@ -24,7 +24,7 @@ export default function ApplicationForm() {
     const [email, setEmail] = useState(null);
     const [phoneNumber, setPhoneNumber] = useState(null);
     const [phoneCode, setPhoneCode] = useState(null);
-    console.log(phoneCode);
+
   
     // Gets the user that submittd the short form.
     const getUser = () => {
